@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/469538141/photo/plant-sprouting-from-the-dirt-with-a-blurred-background.jpg?s=612x612&w=0&k=20&c=uc-WaLHzRlsrBsHrTVO4fEqRqPjkh-MHtlGLj-QWI64=");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.card button {
+  padding: 10px;
+  border: none;
+  background: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: darkgreen;
+}
+
+.result-box {
+  background: rgba(255, 255, 255, 0.35);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.uploadedImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.uploadMessage {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
